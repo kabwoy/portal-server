@@ -20,7 +20,7 @@ module.exports = sequelize.define('user' , {
     },
     role:{
         type:DataTypes.ENUM("Admin" , "Teacher"),
-        defaultValue:"Teacher"
+        defaultValue:"Admin"
     }
         
 })
